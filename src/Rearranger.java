@@ -15,6 +15,24 @@ public class Rearranger implements Directions {
         int col = 3;
         UrRobot bot = new UrRobot(row, col,
                 North, 0);
+        bot.move();
+        bot.move();
+        bot.turnLeft();
+        bot.turnLeft();
+        bot.turnLeft();
+        bot.move();
+        bot.move();
+        bot.pickBeeper();
+        bot.turnLeft();
+        bot.turnLeft();
+        bot.turnLeft();
+        bot.move();
+        bot.pickBeeper();
+        bot.move();
+        bot.move();
+        bot.pickBeeper();
+        bot.move();
+        bot.pickBeeper();
 
     }
 }

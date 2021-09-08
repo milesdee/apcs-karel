@@ -15,6 +15,5 @@ public class Harvester implements Directions {
         int col = 2;
         UrRobot bot = new UrRobot(row, col,
                 East, 1);
-
     }
 }
